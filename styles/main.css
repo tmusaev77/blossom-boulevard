@@ -76,6 +76,13 @@ body {
     max-width: 300px;
     margin-bottom: 20px;
 }
+
+.carousel-item img {
+    width: 100%; /* Подгоняет ширину под контейнер */
+    height: 300px; /* Устанавливает фиксированную высоту */
+    object-fit: cover; /* Обрезает изображение, чтобы оно заполняло весь блок */
+    border-radius: 10px; /* Закругление углов, если нужно */
+}
 .pricing-card {
     margin-top: 30px;
     background-color: #fff;
