@@ -83,6 +83,12 @@ body {
     object-fit: cover; /* Обрезает изображение, чтобы оно заполняло весь блок */
     border-radius: 10px; /* Закругление углов, если нужно */
 }
+
+.carousel-item img.big-carousel {
+    width: 100%; /* Растянуть изображение на всю ширину */
+    height: 1000px; /* Сохранить пропорции */
+}
+
 .pricing-card {
     margin-top: 30px;
     background-color: #fff;
@@ -247,5 +253,9 @@ body {
 @media (max-width: 768px) {
     .phone {
         margin-top: 15px;
+    }
+    .carousel-item img.big-carousel {
+        width: 100%; /* Растянуть изображение на всю ширину */
+        height: 300px; /* Сохранить пропорции */
     }
 }
